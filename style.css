@@ -44,3 +44,38 @@ color: #4caf4f;
     font-size: 0.875rem;
     line-height: 1.5;
 }
+:root {
+  --brand-green: #4CAF4F;
+  --footer-dark: #263238;
+}
+
+.bg-dark {
+  background-color: var(--footer-dark) !important;
+}
+
+.btn-brand {
+  background-color: var(--brand-green);
+  border-color: var(--brand-green);
+  border-radius: 4px;
+}
+
+.btn-brand:hover {
+  background-color: #3e8e41;
+  border-color: #3e8e41;
+}
+
+.text-secondary {
+  color: #95a5a6 !important;
+}
+
+.footer-input-group .form-control::placeholder {
+  color: #7f8c8d;
+}
+
+.footer-input-group .form-control:focus {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  box-shadow: none;
+  color: #fff;
+}
+
+
